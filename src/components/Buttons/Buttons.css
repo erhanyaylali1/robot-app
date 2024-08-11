@@ -1,0 +1,43 @@
+.buttons__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.button__container__item {
+    box-shadow: 0 27px 15px -30px rgba(0, 0, 0, .3), 0px 11px 9px -10px rgba(0, 0, 0, .5);
+    color: white;
+    background-color: rgb(225 90 29);
+    border-radius: .25rem;
+    border: none;
+    padding: 10px 15px;
+}
+
+.button__container__item:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.button__container__up {
+  grid-row: 1;
+  grid-column: 2;
+}
+
+.button__container__left {
+  grid-row: 2;    
+}
+
+.button__container__down {
+  grid-row: 2;
+}
+
+.button__container__right {
+  grid-row: 2;
+}

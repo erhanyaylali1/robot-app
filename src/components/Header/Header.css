@@ -1,0 +1,42 @@
+.header {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    gap: 30px;
+}
+
+.header__logo {
+    margin-right: 30px;
+}
+
+.header__links {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header__links__item {
+    text-decoration: none;
+    color: black;
+    font-size: .9rem;
+    line-height: 1.2rem;
+    letter-spacing: .025em;
+    font-weight: 400;
+}
+
+.header__actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: auto;
+}
+
+.header__actions__item {
+    text-decoration: none;
+    color: grey;
+    font-size: .9rem;
+    line-height: 1.2rem;
+    letter-spacing: .025em;
+    font-weight: 400;
+}
